@@ -1,0 +1,390 @@
+/**/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: default;
+}
+
+/*HEADER*/
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px 0px 40px;
+  align-items: center;
+}
+.header > .header-data {
+  display: flex;
+  align-items: center;
+  color: white;
+  list-style: none;
+  gap: 30px;
+  font-size: 25px;
+}
+.header > .header-data > .high-light {
+  background-color: gold;
+}
+.header > .header-data > .fade {
+  background-color: gray;
+}
+
+/*OVERVIEW*/
+.overview {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://wallpaperaccess.com/full/2373566.jpg);
+}
+.overview > .overview-text {
+  width: 55%;
+  height: 800px;
+  margin-left: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.overview > .overview-text > h1 {
+  font-size: 60px;
+}
+.overview > .overview-text > p {
+  font-size: 20px;
+}
+
+/*INFORMATION*/
+.info > p > span,
+.services > .rgpart > .rgpart1 > p > span,
+.img-sec > .img-txt > h4 > span,
+.team > .team2 > .team2-2 > p > span,
+.overview > .overview-text > h1 > span {
+  color: gold;
+}
+.services > .lfpart > .btn-1,
+.team > .team1 > .btn-1,
+.news > .contact > .n-form > form > .btn-1,
+.overview > .overview-text > div > .btn-1 {
+  width: 150px;
+  height: 50px;
+  background-color: gold;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.overview > .overview-text > div > .btn-2 {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/*INFORMATION*/
+.info {
+  width: 100%;
+  height: 600px;
+  padding: 40px;
+}
+.info > p {
+  font-size: 30px;
+  padding: 0px 0px 40px 20px;
+}
+.info > .info-in {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info > .info-in > .info-div {
+  overflow: hidden;
+  width: 31%;
+  height: 440px;
+}
+.info > .info-in > .info-div > img {
+  height: 250px;
+}
+.info > .info-in > .info-div > p {
+  color: gold;
+  padding-top: 20px;
+}
+.info > .info-in > .info-div > .description {
+  padding-top: 20px;
+  color: gray;
+}
+.info > .info-in > .info-div > hr {
+  color: gray;
+  margin: -20px 0 10px 0px;
+}
+.info > .info-in > .info-div > .side-div {
+  height: 33%;
+  display: flex;
+}
+.info > .info-in > .info-div > .side-div > div > img {
+  width: 100px;
+  height: 100px;
+}
+.info > .info-in > .info-div > .side-div > .content {
+  margin-left: 20px;
+}
+
+/*SERVICES*/
+.services {
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+  display: flex;
+}
+.services > .lfpart {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.services > .lfpart > p {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.services > .rgpart {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.services > .rgpart > .rgpart1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.img-sec > .img-txt > h4,
+.services > .rgpart > .rgpart1 > p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.services > .rgpart > .rgpart1 > img {
+  width: 100px;
+  height: 100px;
+}
+
+/*IMAGE SECTION*/
+.img-sec {
+  display: flex;
+}
+.img-sec > .img-img {
+  width: 50%;
+  padding: 10% 5% 10% 5%;
+}
+.img-sec > .img-img > img {
+  width: 600px;
+}
+.img-sec > .img-txt {
+  width: 50%;
+  padding: 10% 5% 10% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*RECORDS*/
+.records {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+  margin-top: -5%;
+}
+.records > div > h1 {
+  font-size: 50px;
+}
+
+/*TEAM*/
+.team {
+  padding: 8% 5% 8% 5%;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.team > .team1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.team > .team2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px 40px 0px;
+}
+.team > .team2-2,
+.team > .team2 > .team2-2 {
+  width: 24%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.team > .team2 > .team2-2 > h4,
+.team > .team2 > .team2-2 > p {
+  color: white;
+}
+.team > .team2 > .team2-2 > img {
+  height: 200px;
+}
+
+/*NEWS*/
+.news {
+  padding: 8% 5% 8% 5%;
+  width: 100%;
+  height: 180vh;
+}
+.newss {
+  padding: 8% 5% 8% 5%;
+  width: 100%;
+  height: 100vh;
+}
+.news > .news1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.news > .news1 > .news1-1 {
+  width: 28%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 2%;
+  position: relative;
+}
+.news > .news1 > .news1-1 > .box {
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.news > .subs-sec {
+  margin-top: 10%;
+  border: 2px solid black;
+  padding: 8%;
+}
+.news > .subs-sec > input {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  margin-top: 5%;
+}
+.news > .subs-sec > button {
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: blue;
+  border: none;
+}
+.news > .contact {
+  display: flex;
+}
+.news > .contact > .n-data {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.news > .contact > .n-data > h1 {
+  font-size: 40px;
+}
+.news > .contact > .n-data > p {
+  font-size: 20px;
+}
+.news > .contact > .n-data > p > span {
+  font-weight: bold;
+}
+.news > .contact > .n-form {
+  width: 55%;
+  margin: 5%;
+}
+.news > .contact > .n-form > form {
+  background-color: whitesmoke;
+  padding: 5%;
+}
+.news > .contact > .n-form > form > .name {
+  width: 250px;
+  height: 60px;
+  margin: 2px;
+  border: none;
+}
+.news > .contact > .n-form > form > .email {
+  width: 506px;
+  height: 60px;
+  margin: 2px;
+  border: none;
+}
+.news > .contact > .n-form > form > textarea {
+  width: 506px;
+  height: 100px;
+  margin: 2px;
+  border: none;
+}
+.ques-sec {
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0% 5% 0% 5%;
+}
+.ques-sec > h1 {
+  color: white;
+}
+.ques-sec > a {
+  color: black;
+  font-weight: bold;
+}
+
+/*FOOTER*/
+.team > .team2-2 > ul > li {
+  list-style: none;
+}
+.team > .team2-2 > .footer-img {
+  height: 20%;
+  display: flex;
+}
+.team > .team2-2 > .footer-img > img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+footer {
+  color: white;
+  display: flex;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 2px solid white;
+  min-width: 160px;
+}
+.dropdown-content li {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
